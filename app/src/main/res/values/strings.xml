@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">training</string>
+    <string name="invalid_name">please Enter the valid name</string>
+    <string name="invalid_phone">please enter the phone</string>
+    <string name="invalid_email">please enter the email</string>
+    <string name="invalid_gov">please enter the gov ID</string>
+    <string name="invalid_education">please enter the education level</string>
+</resources>

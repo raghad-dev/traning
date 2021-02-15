@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".singing">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="ScrollViewSize">
+
+        <RelativeLayout
+            android:layout_width="406dp"
+            android:layout_height="657dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp">
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/background"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/circule"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:src="@drawable/edit"
+
+                    app:tint="@color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/careem"
+                    android:text="التسجيل"
+                    android:textColor="@color/white"
+                    android:textSize="32dp" />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ImageView01"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@id/linearLayout1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-10dp"
+                android:rotation="45"
+                android:src="@drawable/square" />
+
+            <RelativeLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ImageView01"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp">
+
+                <ImageView
+                    android:id="@+id/ImageView_ueserIcon"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@color/background"
+                    android:padding="8dp"
+                    android:src="@drawable/user"
+
+                    app:tint="@color/white" />
+
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/ImageView_ueserIcon"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@id/ImageView_ueserIcon"
+                    android:background="@color/grey"
+                    android:fontFamily="@font/careem"
+                    android:hint="الاسم الكامل"
+                    android:inputType="textPersonName"
+                    android:paddingRight="45dp"
+                    android:textAlignment="center"
+                    android:textSize="17sp" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/linearLayout2"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="65dp"
+                android:layout_marginRight="30dp">
+
+                <ImageView
+                    android:id="@+id/ImageView_ueserIcon1"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@color/background"
+                    android:padding="8dp"
+                    android:src="@drawable/phone"
+                    app:tint="@color/white" />
+
+                <EditText
+                    android:id="@+id/phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/ImageView_ueserIcon1"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@id/ImageView_ueserIcon1"
+                    android:background="@color/grey"
+                    android:fontFamily="@font/careem"
+                    android:hint="رقم الجوال"
+                    android:inputType="textPhonetic"
+                    android:paddingRight="45dp"
+                    android:textAlignment="center"
+                    android:textSize="17sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linearLayout3"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="30dp">
+
+                <ImageView
+                    android:id="@+id/ImageView_ueserIcon2"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@color/background"
+                    android:padding="8dp"
+                    android:src="@drawable/name"
+                    app:tint="@color/white" />
+
+                <EditText
+                    android:id="@+id/gov"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/ImageView_ueserIcon2"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@id/ImageView_ueserIcon2"
+                    android:background="@color/grey"
+                    android:fontFamily="@font/careem"
+                    android:hint="الهوية"
+                    android:inputType="number"
+                    android:paddingRight="45dp"
+                    android:textAlignment="center"
+                    android:textSize="17sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/linearLayout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linearLayout4"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="30dp">
+
+                <ImageView
+                    android:id="@+id/ImageView_ueserIcon3"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@color/background"
+                    android:padding="8dp"
+                    android:src="@drawable/email"
+                    app:tint="@color/white" />
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/ImageView_ueserIcon3"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@id/ImageView_ueserIcon3"
+                    android:background="@color/grey"
+                    android:fontFamily="@font/careem"
+                    android:hint="الايميل"
+                    android:inputType="textEmailAddress"
+                    android:paddingRight="45dp"
+                    android:textAlignment="center"
+                    android:textSize="17sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/linearLayout6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linearLayout5"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="30dp">
+
+                <ImageView
+                    android:id="@+id/ImageView_ueserIcon4"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@color/background"
+                    android:padding="8dp"
+                    android:src="@drawable/mortarboard"
+                    app:tint="@color/white" />
+
+                <EditText
+                    android:id="@+id/education"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/ImageView_ueserIcon4"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@id/ImageView_ueserIcon4"
+                    android:background="@color/grey"
+                    android:fontFamily="@font/careem"
+                    android:hint="المستوى التعليمي"
+                    android:inputType="text"
+                    android:paddingRight="45dp"
+                    android:textAlignment="center"
+                    android:textSize="17sp" />
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/buttonAddItem"
+                android:layout_width="199dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linearLayout6"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="60dp"
+                android:background="@drawable/round_button"
+                android:fontFamily="@font/careem"
+                android:hint="التالي"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="30dp"
+
+                />
+
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

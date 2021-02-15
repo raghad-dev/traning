@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background">
+    tools:context=".transfer">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="ScrollViewSize">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="736dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-20dp"
+                app:srcCompat="@drawable/back1" />
+
+            <TextView
+                android:id="@+id/text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="لتأكيد الحجز"
+                android:fontFamily="@font/careem"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="160dp"
+                android:layout_marginRight="44dp"
+                android:text="البنك الاهلي"
+                android:fontFamily="@font/careem"
+                android:textColor="@color/submit"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="210dp"
+                android:text="SA7810000001400000567109"
+                android:textAlignment="center"
+                android:fontFamily="@font/careem"
+                android:textColor="@color/submit"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="250dp"
+                android:layout_marginRight="52dp"
+                android:text="البنك الراحجي"
+                android:fontFamily="@font/careem"
+                android:textColor="@color/bank"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="300dp"
+                android:text="SA2780000648608010095402"
+                android:textAlignment="center"
+                android:fontFamily="@font/careem"
+                android:textColor="@color/bank"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="340dp"
+                android:layout_marginRight="52dp"
+                android:text="البنك الإنماء"
+                android:fontFamily="@font/careem"
+                android:textColor="@color/bank1"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/ban"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="390dp"
+                android:text="SA3405000068202619992000"
+                android:fontFamily="@font/careem"
+                android:textAlignment="center"
+                android:textColor="@color/bank1"
+                android:textSize="20dp" />
+
+
+            <ImageView
+                android:id="@+id/myImageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_alignBottom="@+id/bank11"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="64dp"
+                android:layout_marginTop="418dp"
+                android:layout_marginEnd="59dp"
+                android:layout_marginBottom="123dp"
+                android:background="@drawable/ic_baseline_photo_size_select_actual_24"
+                android:scaleType="centerCrop" />
+
+            <Button
+                android:id="@+id/btnPickImage"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/myImageView"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="false"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="162dp"
+                android:layout_marginEnd="113dp"
+                android:layout_marginBottom="847dp"
+                android:background="@drawable/rouned_nextbutton"
+                android:fontFamily="@font/careem"
+                android:text="ارفاق"
+                android:textColor="#fff"
+                android:textSize="23dp" />
+
+            <Button
+                android:id="@+id/bank11"
+                android:layout_width="199dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="680dp"
+                android:layout_marginRight="60dp"
+                android:background="@drawable/round_button"
+                android:fontFamily="@font/careem"
+                android:hint="ارسال"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="30dp" />
+        </RelativeLayout>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="20dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+
+

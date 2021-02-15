@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="background">#51AF9E</color>
+    <color name="blue">#473B7B</color>
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="grey">#BACAD3</color>
+    <color name="submit">#0c7560</color>
+    <color name="bank">#29419b</color>
+    <color name="bank1">#522d24</color>
+    <color name="button"> #C39BD3</color>
+
+</resources>
+
